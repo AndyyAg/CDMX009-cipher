@@ -8,8 +8,7 @@ Aplicada al uso en redes sociales para envio de mensajes sencillos como solució
 FEEDBACK
 -El uso excesivo de formularios puede hacer que la plataforma se vuelva confusa o aburrida
 -ESCALA DE COLORES MÁS TENUE
--
-
+-Bliss-> Darle usabilidad a todas mis pantallas para que  de un inicio y fin
 
 /* Color Theme Swatches in Hex */
 .My-Color-Theme-1-hex { color: #FFD691; }
