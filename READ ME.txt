@@ -1,0 +1,64 @@
+## READ ME
+### CODIFICACIÓN SEGURA
+Consiste en la codificación y decodificación a través de cifrado César para la generación de mensajes que no sobrepasen los cincuenta caractéres, a través de un pin a cuatro dígitos (la cual será la cantidad de desplazamiento) y una palabra clave.
+INVESTIGACIÓN UX
+Está enfocada a usuarias jóvenes mujeres entre 17 a 29 años. 
+Aplicada al uso en redes sociales para envio de mensajes sencillos como solución a la seguridad en su comunicación con contactos por medio de cualquier plataforma de *mensajería* instantánea los cuales solo puedan ser descifrados con esta app.
+
+FEEDBACK
+-El uso excesivo de formularios puede hacer que la plataforma se vuelva confusa o aburrida
+-ESCALA DE COLORES MÁS TENUE
+-
+
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #FFD691; }
+.My-Color-Theme-2-hex { color: #F0CB1A; }
+.My-Color-Theme-3-hex { color: #F7FFA2; }
+.My-Color-Theme-4-hex { color: #9FE889; }
+.My-Color-Theme-5-hex { color: #B0FFCD; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(255, 214, 145, 1); }
+.My-Color-Theme-2-rgba { color: rgba(240, 203, 26, 1); }
+.My-Color-Theme-3-rgba { color: rgba(247, 255, 162, 1); }
+.My-Color-Theme-4-rgba { color: rgba(159, 232, 137, 1); }
+.My-Color-Theme-5-rgba { color: rgba(176, 255, 205, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(37, 100, 78, 1); }
+.My-Color-Theme-2-hsla { color: hsla(49, 87, 52, 1); }
+.My-Color-Theme-3-hsla { color: hsla(65, 100, 81, 1); }
+.My-Color-Theme-4-hsla { color: hsla(106, 67, 72, 1); }
+.My-Color-Theme-5-hsla { color: hsla(142, 100, 84, 1); }
+
+
+##ICONOS
+Lock
+Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Share
+<div>Icons made by <a href="https://www.flaticon.com/authors/skyclick" title="Skyclick">Skyclick</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Exit
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+next
+Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Secret
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Delete
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+
+
+##GRADIENT
+
+background: rgb(233,182,25);
+background: linear-gradient(90deg, rgba(233,182,25,1) 0%, rgba(195,222,28,1) 40%, rgba(0,194,255,1) 100%);
+
+
+C3DE1C
+E5D21F
