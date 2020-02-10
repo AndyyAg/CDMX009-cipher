@@ -5,10 +5,11 @@
     <title>Codificación segura</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <script src="index.js" type="module"></script>
-
+  
   <body>
-<!--Título-->
+    <!--Título-->
+  <script src="index.js" type="module"></script>
+  <link rel="stylesheet" href="style.css">
     <div id="root">
       <header>
         <h1>Codificación segura.</h1>
@@ -17,28 +18,31 @@
     <!-- HOME-->
     <div id="HOME"> 
       <title>Codificación segura</title>    
-      <img src="lock.svg" alt="logo">
       <form action="index.js">
-
-
+        
+        <input type="text" name="send box" id="sendbox" maxlength="4" >
+        <!--Ingresar un Alert() para confirmar que son cuatro dígitos en JS-->
         <p>Ingresa una clave a cuatro dígitos</p>
       </form>
 
     </div>
 <!-- MESSAGE-->
-    <div id="MESSAGE">
-        <title>Escribe tu mensaje</title>
+    <div id="MESSAGE" style="color:#01E1A; ">
+      <section>
+        <h1>Escribe tu mensaje</h1>
+        <input type="text" name="send box" id="textbox" maxlength="50">
+      </section>
 
     </div>
 <!-- RESULT-->
     <div id="RESULT">
         <h2> Mensaje codificado</h2>
-
+<!-- En las cajas de texto se mostrará el resultado sobre el txt box y el sendbox-->
         <h2>Mensaje decodificado</h2>
     </div>
 <!-- END-->
     <div id="END">
-        <p>Gracias por usar decodificación segura</p>
+        <h3>Gracias por usar decodificación segura</h3>
 
         <p>Da click en el candado para salir</p>
     </div>

@@ -1,10 +1,58 @@
 /* Color de todas las páginas*/
 
-body{
+div{
+    font-family: Sahitya;
     color: #201E1A;  
 }
 
+h1{
+    position: absolute;
+width: 246px;
+height: 39px;
+left: 57px;
+top: 36px;
 
+font-family: Sahitya;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+h2{
+    font-family: Sahitya;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h3{
+    position: absolute;
+width: 257px;
+height: 110px;
+left: 51px;
+top: 158px;
+
+font-family: Sahitya;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+
+Fill: Linear Gradient
+#EF314C @ 0%
+#EF9A1D @ 100%
+
+}
 /* HOME */
     /*Posición de "Logo"*/
 
@@ -18,3 +66,16 @@ img{
     
     background: #000000;
 }   
+
+/* HOME*/
+input{
+    position: absolute;
+width: 161px;
+height: 53px;
+left: 66px;
+top: 366px;
+
+background: linear-gradient(101.85deg, #EF314C 41.47%, #EFA617 99.32%);
+border: 1px solid #A2A1D7;
+box-sizing: border-box;
+}
