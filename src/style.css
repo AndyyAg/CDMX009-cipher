@@ -1,1 +1,101 @@
-/* Color de todas las páginas*/
+body{
+    text-align: center;
+    position: relative;
+
+    background: #201E1A;
+}
+
+/*ESTILO PARA INDEX*/
+h1{
+
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+form{
+
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #E7F6FE;
+}
+
+/* ESTILO PARA RESULT*/
+.resultados{
+
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #E7F6FE;
+
+}
+
+/*ESTILO PARA END*/
+.despedida{
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+
+background: -webkit-linear-gradient(left top, #EF314C, #EF9A1D);
+  background: linear-gradient(to bottom right, #EF314C, #EF9A1D);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+}
+.mensaje{
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+/*Dar estilo a las imagenes por CSS*/
+
+#logoSecreto {
+    width: 117px;
+    height: 115px;
+}
+#trashButton{
+    width: 56px;
+    height: 63px;
+}
+#nextButton{
+    width: 42px;
+    height: 42px;
+} 
+#returnButton{
+    width: 65px;
+    height: 62px;
+}
+#shareButton{
+    width: 62px;
+    height: 60px;
+}
+#exitButton{
+    width: 53px;
+    height: 58px;
+}
+#lockButton{
+    width: 133px;
+    height: 131px;
+}

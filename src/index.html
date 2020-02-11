@@ -8,28 +8,23 @@
   </head>
   
   <body>
-
-<!--HOME -->    
-  <section>
-<div>
-  <h1>Codificación segura.</h1>
-</div>
-<div>
-  
-  <input type="text" name="keybox" maxlength="4">
-  <p>Ingresa una clave a cuatro dígitos</p>  
-</div>
-<div>
-  <input type="text" name="textbox" size="50" maxlength="50">
-  <p>Escribe tu mensaje aquí.</p>
-
-</div>
-</section>    
-
-<!--MESSAGE -->
+        <!--HOME -->    
     <section>
-      <h2>Escribe tu mensaje aquí</h2>
-        
-    </section>
+      <div>
+        <h1>Codificación segura.</h1>
+      </div>
+        <!-- SOLICITAR CLAVE A 4 DÍGITOS-->
+      <div>  
+        <img src="secret.svg" alt="logo" width="60px" height="60px" id="logoSecreto">
+        <form  action="result.html" method="POST">
+          Ingresa una clave<br> Solo pueden ser dígitos. <br>
+          <input type="number" name="key1" id="cantidadDesplazamiento"><br>
+          Escribe tu mensaje:<br>
+        <input type="text" name="text1" id="mensajeACodificar">
+        </form>
+        <input type="image" src="trash.svg" alt="Borrar datos" name="deleteData" id="trashButton">
+        <a href="result.html" src="next.svg" alt="Continuar"><img src="next.svg" alt="botón continuar"id="nextButton"></a>
+      </div>
+    </section>   
 </body>
 </html>
