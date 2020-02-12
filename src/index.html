@@ -4,27 +4,26 @@
     <meta charset="utf-8">
     <title>Codificación segura</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" type="module"></script>
   </head>
   
   <body>
-        <!--HOME -->    
+    <!--HOME -->    
     <section>
       <div>
         <h1>Codificación segura.</h1>
       </div>
-        <!-- SOLICITAR CLAVE A 4 DÍGITOS-->
+      <!-- SOLICITAR CLAVE A 4 DÍGITOS-->
       <div>  
-        <img src="secret.svg" alt="logo" width="60px" height="60px" id="logoSecreto">
-        <form  action="result.html" method="POST">
-          Ingresa una clave<br> Solo pueden ser dígitos. <br>
-          <input type="number" name="key1" id="cantidadDesplazamiento"><br>
-          Escribe tu mensaje:<br>
-        <input type="text" name="text1" id="mensajeACodificar">
-        </form>
-        <input type="image" src="trash.svg" alt="Borrar datos" name="deleteData" id="trashButton">
-        <a href="result.html" src="next.svg" alt="Continuar"><img src="next.svg" alt="botón continuar"id="nextButton"></a>
+        <img src="secret.svg" alt="logo" id="logoSecreto">
       </div>
+       <div id="formulario">
+         Ingresa una clave<br> Solo pueden ser dígitos. <br>
+         <input type="number" id="cantidadDesplazamiento"><br>
+         Escribe tu mensaje:<br>
+         <input type="text" name="text1" id="mensajeACodificar">
+         <button id="decode"><a href="result.html" src="next.svg" alt="Continuar"><img src="next.svg" id="nextButton"></a></button>  
+        </div>
     </section>   
-</body>
+   <script src="index.js" type="module"></script>
+  </body>
 </html>

@@ -17,7 +17,7 @@ h1{
 
     color: #FFFFFF;
 }
-form{
+#formulario{
 
     font-family: Sahitya;
     font-style: normal;
@@ -75,13 +75,11 @@ background: -webkit-linear-gradient(left top, #EF314C, #EF9A1D);
     width: 117px;
     height: 115px;
 }
-#trashButton{
-    width: 56px;
-    height: 63px;
-}
 #nextButton{
     width: 42px;
     height: 42px;
+    background-color: #201E1A;
+
 } 
 #returnButton{
     width: 65px;
