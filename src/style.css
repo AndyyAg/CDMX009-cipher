@@ -14,8 +14,10 @@ h1{
     font-size: 24px;
     line-height: 37px;
     text-align: center;
-
-    color: #FFFFFF;
+    background: -webkit-linear-gradient(left top, #EF573B, #EF9D1B);
+    background: linear-gradient(to bottom right, #EF573B, #EF9D1B);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
 }
 #formulario{
 
@@ -27,59 +29,19 @@ h1{
     text-align: center;
 
     color: #E7F6FE;
+
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
 }
 
-/* ESTILO PARA RESULT*/
-.resultados{
 
-    font-family: Sahitya;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 37px;
-    text-align: center;
 
-    color: #E7F6FE;
-
-}
-
-/*ESTILO PARA END*/
-.despedida{
-    font-family: Sahitya;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 37px;
-    text-align: center;
-
-background: -webkit-linear-gradient(left top, #EF314C, #EF9A1D);
-  background: linear-gradient(to bottom right, #EF314C, #EF9A1D);
-  -webkit-background-clip: text;  
-  -webkit-text-fill-color: transparent;  
-}
-.mensaje{
-    font-family: Sahitya;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
 /*Dar estilo a las imagenes por CSS*/
 
 #logoSecreto {
     width: 117px;
     height: 115px;
-}
-#nextButton{
-    width: 42px;
-    height: 42px;
-    background-color: #201E1A;
-
 } 
 #returnButton{
     width: 65px;
@@ -93,7 +55,13 @@ background: -webkit-linear-gradient(left top, #EF314C, #EF9A1D);
     width: 53px;
     height: 58px;
 }
-#lockButton{
-    width: 133px;
-    height: 131px;
+#encodeButton{
+    width: 53px;
+    height: 58px;
+
+}
+#decodeButton{
+    width: 53px;
+    height: 58px;
+
 }

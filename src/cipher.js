@@ -1,5 +1,6 @@
 const cipher = {
 //    propiedades
+
  //   métodos(funcion)
 
 };

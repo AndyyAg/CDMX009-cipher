@@ -4,26 +4,32 @@
     <meta charset="utf-8">
     <title>Codificación segura</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  
+  </head> 
   <body>
-    <!--HOME -->    
-    <section>
+    <!--FORMULARIO DE DATOS -->    
       <div>
         <h1>Codificación segura.</h1>
-      </div>
-      <!-- SOLICITAR CLAVE A 4 DÍGITOS-->
-      <div>  
         <img src="secret.svg" alt="logo" id="logoSecreto">
       </div>
-       <div id="formulario">
-         Ingresa una clave<br> Solo pueden ser dígitos. <br>
+      <div id="formulario">
+         <p>  Ingresa una clave. Solo pueden ser dígitos. </p>
          <input type="number" id="cantidadDesplazamiento"><br>
-         Escribe tu mensaje:<br>
+         <p>Escribe tu mensaje:</p>
          <input type="text" name="text1" id="mensajeACodificar">
-         <button id="decode"><a href="result.html" src="next.svg" alt="Continuar"><img src="next.svg" id="nextButton"></a></button>  
-        </div>
-    </section>   
+         <button id="decode"><a href="index.html" alt="Botón decodificar"><img src="keyword.svg" id="decodeButton" 
+            onclick=""></a></button>  
+         <button id="encode"><a href="index.html" alt="Botcón codificar"><img src="code.svg" id="encodeButton"
+            onclick=""></a></button>
+          <input type="text" id="result">
+      </div>
+      <div>
+        <!-- ICONOS -->
+        <a href="index.html" src="replay.svg" alt="Replay"><img src="replay.svg" alt="botón reiniciar" id="returnButton"></a>
+        <!--Boton para enviar en redes  -->
+        <a href="http://www.facebook.com/sharer.php?"" src=" facebook.svg" alt="Continuar"><img src="facebook.svg"
+            alt="botón redes" id="shareButton"></a>
+        <a href="end.html" src="exit.svg" alt="Salir"><img src="exit.svg" alt="botón salir" id="exitButton"></a>
+      </div>
    <script src="index.js" type="module"></script>
   </body>
 </html>
