@@ -12,24 +12,25 @@
         <img src="secret.svg" alt="logo" id="logoSecreto">
       </div>
       <div id="formulario">
-         <p>  Ingresa una clave. Solo pueden ser dígitos. </p>
+        <!-- Cajas de texto para solicitar información -->
+        <p>  Ingresa una clave. Solo pueden ser dígitos. </p>
          <input type="number" id="cantidadDesplazamiento"><br>
          <p>Escribe tu mensaje:</p>
-         <input type="text" name="text1" id="mensajeACodificar">
-         <button id="decode"><a href="index.html" alt="Botón decodificar"><img src="keyword.svg" id="decodeButton" 
-            onclick=""></a></button>  
-         <button id="encode"><a href="index.html" alt="Botcón codificar"><img src="code.svg" id="encodeButton"
-            onclick=""></a></button>
-          <input type="text" id="result">
+         <input type="text" name="text" id="mensajeACodificar" class="text">
+         <!-- Botones para cifrar y descifrar -->
+         <button id="encode"><a href="index.html" alt="Botcón codificar" ><img src="code.svg" id="encodeButton"></a></button>
+         <button id="decode"><a href="index.html" alt="Botón decodificar" ><img src="keyword.svg" id="decodeButton" ></a></button>  
+         <!-- Debe mostrarse el resultado en esta caja de texto -->
+         <input type="text" id="result" class="text">
       </div>
       <div>
-        <!-- ICONOS -->
-        <a href="index.html" src="replay.svg" alt="Replay"><img src="replay.svg" alt="botón reiniciar" id="returnButton"></a>
+      <!-- ICONOS -->
+        <br><a href="index.html" src="replay.svg" alt="Replay"><img src="replay.svg" alt="botón reiniciar" id="returnButton"></a>
         <!--Boton para enviar en redes  -->
         <a href="http://www.facebook.com/sharer.php?"" src=" facebook.svg" alt="Continuar"><img src="facebook.svg"
             alt="botón redes" id="shareButton"></a>
-        <a href="end.html" src="exit.svg" alt="Salir"><img src="exit.svg" alt="botón salir" id="exitButton"></a>
       </div>
-   <script src="index.js" type="module"></script>
+  
+      <script src="index.js" type="module"></script>
   </body>
 </html>
