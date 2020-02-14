@@ -39,12 +39,12 @@ const cipher = {
             let formulaDescifrar;
             let nuevaLetra;
 
-            if (ascii > 64 && ascii <33) {
-                formulaDescifrar = (ascii + 65 - offset) % 26 + 65;
+            if (ascii > 64 && ascii <91) {
+                formulaDescifrar = (ascii -13 - offset) % 26 + 65;
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer += nuevaLetra;
             } else if (ascii > 96 && ascii <123) {
-                formulaDescifrar = (ascii + 97 - offset) % 26 + 97;
+                formulaDescifrar = (ascii -45 - offset) % 26 + 97;
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer += nuevaLetra;
             } else if (ascii === 32) {
