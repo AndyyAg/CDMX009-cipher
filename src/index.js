@@ -2,7 +2,7 @@ import cipher from './cipher.js';
 
 
 const string ='';
-const number = 0;
+const offset = 0;
 
 let ButtonDecode = document.getElementById("decode");
 let ButtonEncode = document.getElementById("encode");
@@ -15,14 +15,14 @@ function imprimirDatos(){
 
 ButtonEncode.onclick = function(){
     actionData();
-    document.getElementById("result").value = cipher.cifrar(string,number);
-    document.getElementById("result").innerHTML = cipher.cifrar(string, number);
+    document.getElementById("result").value = cipher.encode(string,offset);
+    document.getElementById("result").innerHTML = cipher.encode(string, offset);
 };
 
-ButtonDecode.onclick = function () {
+ButtonDecode.onclick = function() {
     actionData();
-    document.getElementById("result").value = cipher.descifrar(string, number);
-    document.getElementById("result").innerHTML = cipher.descifrar(string, number);
+    document.getElementById("result").value = cipher.decode(string, offset);
+    document.getElementById("result").innerHTML = cipher.decode(string, offset);
 
 };
 

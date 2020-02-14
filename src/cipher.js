@@ -1,24 +1,24 @@
 const cipher = {
-    texto: document.getElementById("mensajeACodificar").value, 
-    desplazamiento: parseInt(document.getElementById("cantidadDesplazamiento").value),
+    string: document.getElementById("mensajeACodificar").value, 
+    offset: parseInt(document.getElementById("cantidadDesplazamiento").value),
 
     //FUNCIÓN PARA CIFRAR STRING//
-    cifrar: function (texto, desplazamiento){
+    encode: function (string, offset){
         let resultCifer = "";  //Almacenará el resultado final//
 
         for(var i=0; i < texto.length; i++){
             let ascii = texto.charCodeAt(i);
 
-            let formulaCifrar;  //Almacena fórmul del resultado
+            let formulaCifrar;  //Almacena fórmula del resultado
             let nuevaLetra;   // Almacena nuevo valor de la letra decifrada
 
             if (65 >= ascii && ascii <= 90) { //Revisar en mayúsculas//
-                formulaCifrar = (ascii - 65 + desplazamiento) % 26 + 65;
+                formulaCifrar = (ascii - 65 + offset) % 26 + 65;
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer+=nuevaLetra;
             } else if (97 <= ascii && ascii <= 122){
 
-                formulaCifrar = (ascii -97 - desplazamiento) %26 + 97;
+                formulaCifrar = (ascii -97 - offset) %26 + 97;
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer+=nuevaLetra;
             }else if (ascii === 32){
@@ -31,7 +31,7 @@ const cipher = {
     }
     
     //FUNCIÓN PARA DESCIFRAR STRING//
-    ,descifrar: function (texto, desplazamiento){
+    ,decode: function (string, offset){
         let resultDecifer ="";  //Almacenará valor del string descifrado//
         
         for(var i=0; i < texto.length; i++){
@@ -41,11 +41,11 @@ const cipher = {
             let nuevaLetra;
 
             if (65 >= ascii && ascii <= 90){
-                formulaDescifrar = (ascii - 13 - desplazamiento) %26 + 65;
+                formulaDescifrar = (ascii - 13 - offset) %26 + 65;
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer+=nuevaLetra;
             } else if (ascii >= 97 && ascii <= 122){
-                formulaDescifrar = (ascii -45 - desplazamiento) %26 + 97;
+                formulaDescifrar = (ascii -45 - offset) %26 + 97;
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer+=nuevaLetra;
             } else if (ascii === 32){
@@ -55,7 +55,7 @@ const cipher = {
             }
         }
         return resultDecifer;
-    },
+    }
 };
 
 export default cipher;
