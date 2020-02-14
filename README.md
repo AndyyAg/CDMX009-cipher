@@ -1,21 +1,21 @@
 # CODIFICACIÓN SEGURA
 ##Índice
-	*[1.Objetivo del proyecto]
-	*[2.Imagen final del proyecto]
-	*[3.Investigación UX]
-		*[I.Usuarios y objetivos]
-		*[II.Problema a solucionar]
-		*[III.Prototipo en papel]
-		*[IV.Feedback]
-		*[V. Prototipo final]
-	*[4.Objetivos de aprendizaje]
+*[1.Objetivo del proyecto](#1-Objetivo-del-proyecto)
+*[2.Imagen final del proyecto](#2-Imagen-final-del-proyecto)
+*[3.Investigación UX](#3-Investigacion-UX)
+*[I.Usuarios y objetivos](#I-Usuarios-y-objetivos)
+*[II.Problema a solucionar](#II-Problema-a-solucionar)
+*[III.Prototipo en papel](#III-Prototipo-en-papel)
+*[IV.Feedback](#IV-Feedback)
+*[V.Prototipo final](#V-Prototipo-final)
+*[4.Objetivos de aprendizaje](#4-Objetivos-de-aprendizaje)
 ***
 ##1.Objetivo del proyecto
 Consiste en la codificación y decodificación a través de cifrado César para la generación de mensajes a través de un número (el cual será la cantidad de desplazamiento) y el texto original.
 
 ##2.Imagen final del proyecto
 *Prototipo final
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/Muckup%20final.png
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/Muckup%20final.png)
 
 ##3.Investigación UX
 
@@ -28,10 +28,10 @@ Envio de mensajes ocultos a cualquier persona por medio de una plataforma de men
 
 ###III.Prototipo en papel
 Realicé un prototipo por Balsamiq, el cual fui modificando y traspacé a figma hasta llegar a mi proyecto final.
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/HOME.png
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/MESSAGE.png
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/RESULT.png
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/END.png
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/HOME.png)
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/MESSAGE.png)
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/RESULT.png)
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/END.png)
 
 ###IV.Feedback
 1.El uso excesivo de formularios puede hacer que la plataforma se vuelva confusa o aburrida
@@ -41,7 +41,7 @@ https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/END.png
 ###V. Prototipo final
 
 *Producto
-https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/Producto%20final.png
+(https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/Producto%20final.png)
 
 ##4.Objetivos de aprendizaje
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
