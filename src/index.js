@@ -1,28 +1,39 @@
 import cipher from './cipher.js';
 
 
-const string ='';
+const string = '';
 const offset = 0;
 
+//refs 
 let ButtonDecode = document.getElementById("decode");
 let ButtonEncode = document.getElementById("encode");
 
-function imprimirDatos(){
+function imprimirDatos() {
     string = document.getElementById("mensajeACodificar").value;
     number = document.getElementById("cantidadDesplazamiento").value;
 
-} 
+}
 
-ButtonEncode.onclick = function(){
-    actionData();
-    document.getElementById("result").value = cipher.encode(string,offset);
-    document.getElementById("result").innerHTML = cipher.encode(string, offset);
+ButtonEncode.onclick = function () {
+
+    let texto = document.getElementById('mensajeACodificar').value
+    let offset = document.getElementById('cantidadDesplazamiento').value
+
+    //Conexión con Cipher
+    let resultado = cipher.encode(texto,offset)
+    // Visualizar en pantalla
+    document.getElementById("result").value = resultado
 };
 
-ButtonDecode.onclick = function() {
-    actionData();
-    document.getElementById("result").value = cipher.decode(string, offset);
-    document.getElementById("result").innerHTML = cipher.decode(string, offset);
+ButtonDecode.onclick = function () {
+
+    let texto = document.getElementById('mensajeACodificar').value
+    let offset = document.getElementById('cantidadDesplazamiento').value
+
+    //Conexión con Cipher
+    let resultado = cipher.decode(texto, offset)
+    //Visualizar en pantalla
+    document.getElementById("result").value = resultado
 
 };
 

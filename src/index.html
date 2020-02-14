@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Codificación segura</title>
-    <link rel="stylesheet" href="style.css" />
-  </head> 
-  <body>
-    <!--FORMULARIO DE DATOS -->    
-      <div>
-        <h1>Codificación segura.</h1>
-        <img src="secret.svg" alt="logo" id="logoSecreto">
-      </div>
-      <div id="formulario">
-        <!-- Cajas de texto para solicitar información -->
-        <p>  Ingresa una clave. Solo pueden ser dígitos. </p>
-         <input type="number" id="cantidadDesplazamiento"><br>
-         <p>Escribe tu mensaje:</p>
-         <input type="text" name="text" id="mensajeACodificar" class="text">
-         <!-- Botones para cifrar y descifrar -->
-         <button id="encode"><a href="index.html" alt="Botcón codificar" ><img src="code.svg" id="encodeButton"></a></button>
-         <button id="decode"><a href="index.html" alt="Botón decodificar" ><img src="keyword.svg" id="decodeButton" ></a></button>  
-         <!-- Debe mostrarse el resultado en esta caja de texto -->
-         <input type="text" id="result" class="text">
-      </div>
-      <div>
-      <!-- ICONOS -->
-        <br><a href="index.html" src="replay.svg" alt="Replay"><img src="replay.svg" alt="botón reiniciar" id="returnButton"></a>
-        <!--Boton para enviar en redes  -->
-        <a href="http://www.facebook.com/sharer.php?"" src=" facebook.svg" alt="Continuar"><img src="facebook.svg"
-            alt="botón redes" id="shareButton"></a>
-      </div>
-  
-      <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Codificación segura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--FORMULARIO DE DATOS -->
+  <div>
+    <h1>Codificación segura.</h1>
+    <img src="secret.svg" alt="logo" id="logoSecreto">
+  </div>
+  <div id="formulario">
+    <!-- Cajas de texto para solicitar información -->
+    <p> Ingresa una clave. Solo pueden ser dígitos. </p>
+    <input type="number" id="cantidadDesplazamiento"><br>
+    <p>Escribe tu mensaje:</p>
+    <input type="text" name="text" id="mensajeACodificar" class="text">
+    <!-- Botones para cifrar y descifrar -->
+    <button id="encode">
+      <img src="code.svg" id="encodeButton">
+    </button>
+    <button id="decode">
+      <img src="keyword.svg" id="decodeButton">
+    </button>
+    <!-- Debe mostrarse el resultado en esta caja de texto -->
+    <input type="text" id="result" class="text">
+  </div>
+  <div>
+    <!-- ICONOS -->
+    <br><a href="index.html" src="replay.svg" alt="Replay"><img src="replay.svg" alt="botón reiniciar"
+        id="returnButton"></a>
+    <!--Boton para enviar en redes  -->
+    <a href="http://www.facebook.com/sharer.php?"" src=" facebook.svg" alt="Continuar"><img src="facebook.svg"
+        alt="botón redes" id="shareButton"></a>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
