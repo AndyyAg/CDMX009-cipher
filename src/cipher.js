@@ -39,7 +39,7 @@ const cipher = {
             let formulaDescifrar;
             let nuevaLetra;
 
-            if (ascii > 64 && ascii <91) {
+            if (ascii > 64 && ascii <33) {
                 formulaDescifrar = (ascii + 65 - offset) % 26 + 65;
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer += nuevaLetra;
