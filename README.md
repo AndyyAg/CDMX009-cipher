@@ -35,9 +35,9 @@ Realicé un prototipo por Balsamiq, el cual fui modificando y traspacé a figma 
 <img src= https://github.com/AndyyAg/CDMX009-cipher/blob/master/images/END.png>
 
 ### IV.Feedback
-1.El uso excesivo de formularios puede hacer que la plataforma se vuelva confusa o aburrida
-2.Escala de colores con tonalidades tenues y serios
-3.(Bliss) Darle usabilidad a todas las pantallas para que de un inicio y fin
+1. El uso excesivo de formularios puede hacer que la plataforma se vuelva confusa o aburrida
+2. Escala de colores con tonalidades tenues y serios
+3. (Bliss) Darle usabilidad a todas las pantallas para que de un inicio y fin
 
 ### V. Prototipo final
 
