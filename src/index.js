@@ -16,22 +16,22 @@ function imprimirDatos() {
 
 ButtonEncode.onclick = function () {
 
-    let texto = document.getElementById('mensajeACodificar').value
+    let string = document.getElementById('mensajeACodificar').value
     let offset = document.getElementById('cantidadDesplazamiento').value
 
     //Conexión con Cipher
-    let resultado = cipher.encode(texto,offset)
+    let resultado = cipher.encode(string,offset)
     // Visualizar en pantalla
     document.getElementById("result").value = resultado
 };
 
 ButtonDecode.onclick = function () {
 
-    let texto = document.getElementById('mensajeACodificar').value
+    let string = document.getElementById('mensajeACodificar').value
     let offset = document.getElementById('cantidadDesplazamiento').value
 
     //Conexión con Cipher
-    let resultado = cipher.decode(texto, offset)
+    let resultado = cipher.decode(string, offset)
     //Visualizar en pantalla
     document.getElementById("result").value = resultado
 
