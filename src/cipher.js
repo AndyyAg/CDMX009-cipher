@@ -7,7 +7,7 @@ const cipher = {
         let resultCifer = "";  //Almacenará el resultado final//
 
         for (var i = 0; i < texto.length; i++) {
-            let ascii = texto.charCodeAt(i);
+            let ascii = texto.charCodeAt(i).split;
 
             let formulaCifrar;  //Almacena fórmula del resultado
             let nuevaLetra;   // Almacena nuevo valor de la letra decifrada
@@ -16,11 +16,11 @@ const cipher = {
                 formulaCifrar = (ascii - 65 + offset) % 26 + 65;
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer += nuevaLetra;
-            } else if (ascii > 96 && ascii < 123) {
+            } else if (ascii > 96 && ascii < 123) { //Revisión en minúsculas//
                 formulaCifrar = (ascii - 97 + offset) % 26 + 97;
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer += nuevaLetra;
-            } else if (ascii === 32) {
+            } else if (ascii === 32) { //Verificar espacios//
                 resultCifer += " ";
             } else {
                 break;
@@ -34,7 +34,7 @@ const cipher = {
         let resultDecifer = "";  //Almacenará valor del string descifrado//
 
         for (var i = 0; i < texto.length; i++) {
-            let ascii = texto.charCodeAt(i);
+            let ascii = texto.charCodeAt(i).split;
 
             let formulaDescifrar;
             let nuevaLetra;
