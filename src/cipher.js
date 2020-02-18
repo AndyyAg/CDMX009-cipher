@@ -12,11 +12,11 @@ const cipher = {
             let formulaCifrar;  //Almacena fórmula del resultado
             let nuevaLetra;   // Almacena nuevo valor de la letra decifrada
 
-            if (ascii > 64 && ascii < 91) { //Revisar en mayúsculas//
+            if (ascii >= 65 && ascii <= 90) { //Revisar en mayúsculas//
                 formulaCifrar = ((ascii - 65 + offset) % 26 + 65);
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer += nuevaLetra;
-            } else if (ascii > 96 && ascii < 123) { //Revisión en minúsculas//
+            } else if (ascii >= 97 && ascii <= 122) { //Revisión en minúsculas//
                 formulaCifrar = ((ascii - 97 + offset) % 26 + 97);
                 nuevaLetra = String.fromCharCode(formulaCifrar);
                 resultCifer += nuevaLetra;
@@ -39,11 +39,11 @@ const cipher = {
             let formulaDescifrar;
             let nuevaLetra;
 
-            if (ascii > 64 && ascii < 91) {
+            if (ascii >= 65 && ascii <= 90) {
                 formulaDescifrar = ((ascii + 65 - offset) % 26 + 65);
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer += nuevaLetra;
-            } else if (ascii > 96 && ascii < 123) {
+            } else if (ascii >= 97 && ascii <= 122) {
                 formulaDescifrar = ((ascii + 97 - offset) % 26 + 97);
                 nuevaLetra = String.fromCharCode(formulaDescifrar);
                 resultDecifer += nuevaLetra;
