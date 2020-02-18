@@ -59,14 +59,14 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
+- [X] Uso correcto de HTML semántico.
 - [X] Uso de selectores de CSS.
 - [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
 - [X] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
+- [X] Manejo de eventos del DOM.
 - [X] Manipulación dinámica del DOM.
 
 ### Javascript
@@ -75,17 +75,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [X] Uso de condicionales (if-else | switch).
 - [X] Uso de bucles (for | do-while).    
 - [X] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [X] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [X] Testeo de tus funciones.
 
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
 - [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
