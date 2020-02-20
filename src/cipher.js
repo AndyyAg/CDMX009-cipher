@@ -1,60 +1,29 @@
+let alphabet = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(" ")
 const cipher = {
-    string: document.getElementById("mensajeACodificar").value,
-    offset: parseInt(document.getElementById("cantidadDesplazamiento").value),
 
-    //FUNCIÓN PARA CIFRAR STRING//
-    encode: (string, offset) => {
-        let resultCifer = "";  //Almacenará el resultado final//
-
-        for (var i = 0; i < string.length; i++) {
-            let ascii = string.charCodeAt(i);
-
-            let formulaCifrar;  //Almacena fórmula del resultado
-            let nuevaLetra;   // Almacena nuevo valor de la letra decifrada
-
-            if (ascii >= 65 && ascii <= 90) { //Revisar en mayúsculas//
-                formulaCifrar = ((ascii - 65 + offset) % 26 + 65);
-                nuevaLetra = String.fromCharCode(formulaCifrar);
-                resultCifer += nuevaLetra;
-            } else if (ascii >= 97 && ascii <= 122) { //Revisión en minúsculas//
-                formulaCifrar = ((ascii - 97 + offset) % 26 + 97);
-                nuevaLetra = String.fromCharCode(formulaCifrar);
-                resultCifer += nuevaLetra;
-            } else if (ascii === 32) { //Verificar espacios//
-                resultCifer += " ";
-            } else {
-                break;
+    //Fórmula para crear codificación en mayúsculas//
+    encode(string = document.getElementById("mensajeACodificar"), offset = document.getElementById("cantidadDesplazamiento"), back) {
+        let result = []
+        offset = Number(offset)
+        for (let i of string) {
+            if (i.charCodeAt(0) === 32) {
+                result.push(" ")
+                continue
             }
+            i = i.toUpperCase()
+            let encodeFormMay = back ? (i.charCodeAt(0) + 65 - offset) % 26 + 65 : (i.charCodeAt(0) - 65 + offset) % 26 + 65;
+                result.push(String.fromCharCode(encodeFormMay))
+        
         }
-        return resultCifer;
+    
+
+        return result.join("")
+    },
+
+    //Fórmula para decodificar en mayúsculas//
+
+    decode(string, offset){
+        return this.encode(string, offset, true)
     }
-
-    //FUNCIÓN PARA DESCIFRAR STRING//
-    , decode: (string, offset) => {
-        let resultDecifer = "";  //Almacenará valor del string descifrado//
-
-        for (var i = 0; i < string.length; i++) {
-            let ascii = string.charCodeAt(i);
-
-            let formulaDescifrar;
-            let nuevaLetra;
-
-            if (ascii >= 65 && ascii <= 90) {
-                formulaDescifrar = ((ascii + 65 - offset) % 26 + 65);
-                nuevaLetra = String.fromCharCode(formulaDescifrar);
-                resultDecifer += nuevaLetra;
-            } else if (ascii >= 97 && ascii <= 122) {
-                formulaDescifrar = ((ascii + 97 - offset) % 26 + 97);
-                nuevaLetra = String.fromCharCode(formulaDescifrar);
-                resultDecifer += nuevaLetra;
-            } else if (ascii === 32) {
-                resultDecifer += " ";
-            } else {
-                break;
-            }
-        }
-        return resultDecifer;
-    }
-};
-
+}
 export default cipher;

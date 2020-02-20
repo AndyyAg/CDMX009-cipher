@@ -39,4 +39,3 @@ ButtonDecode.onclick = function () {
 
 
 console.log(cipher);
-
