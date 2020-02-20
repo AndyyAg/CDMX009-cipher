@@ -12,7 +12,7 @@ const cipher = {
                      let encodeFormMay = back ? (i.charCodeAt(0) + 65 - offset) % 26 + 65 : (i.charCodeAt(0) - 65 + offset) % 26 + 65;
                      resultEnc.push(String.fromCharCode(encodeFormMay))
             } else if (i.charCodeAt(0) > 96 && i.charCodeAt(0) < 123) {
-                //Fórmula para minúsculas NO MARCA MI DECODIFICADOR EN MINÚSCULAS//
+                //Fórmula para minúsculas NO MARCA MI DECODIFICADOR EN MINÚSCULAS **Revisar//
                     i = i.toLowerCase()
                     let encodeFormMin = back ? (i.charCodeAt(0) + 97 - offset) % 26 + 97 : (i.charCodeAt(0) - 97 + offset) % 26 + 97;
                     resultEnc.push(String.fromCharCode(encodeFormMin))
