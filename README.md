@@ -78,7 +78,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [X] Declaración correcta de variables (const & let).
 
 ### Testing
-- [X] Testeo de tus funciones.
+- [ ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
