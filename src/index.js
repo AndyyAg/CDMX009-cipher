@@ -20,7 +20,7 @@ ButtonEncode.onclick = function () {
     let offset = document.getElementById('cantidadDesplazamiento').value
 
     //Conexión con Cipher
-    let resultado = cipher.encode(string,offset)
+    let resultado = cipher.encode(offset, string)
     // Visualizar en pantalla
     document.getElementById("result").value = resultado
 };
@@ -31,7 +31,7 @@ ButtonDecode.onclick = function () {
     let offset = document.getElementById('cantidadDesplazamiento').value
 
     //Conexión con Cipher
-    let resultado = cipher.decode(string, offset)
+    let resultado = cipher.decode(offset, string)
     //Visualizar en pantalla
     document.getElementById("result").value = resultado
 
